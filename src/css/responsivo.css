@@ -1,46 +1,37 @@
-@media (max-width: 1280px){
-    body{
-        padding: 0 40px;
-    }
-}
-
-@media (max-width: 768px){
-    .informacoes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+/* Estilos para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    .conteudo {
+        padding: 10px; /* Reduz o espaçamento interno */
     }
 
-    .informacoes .descricao{
-        width: 60%;
-        text-align: center;
+    .informacoes .logo {
+        max-width: 100px; /* Reduz o tamanho da logo */
+        margin-bottom: 50px; /* Reduz a margem inferior */
     }
 
-}
-
-@media (max-width: 425px){
-    .informacoes .logo{
-        max-width: 300px;
+    .informacoes .descricao {
+        font-size: 18px; /* Reduz o tamanho da fonte */
+        padding: 10px; /* Adiciona um pouco de espaçamento interno */
     }
 
-    .informacoes .descricao{
-        width: 100%;
+    .botoes-carrossel .botao {
+        width: 30px; /* Ajusta o tamanho dos botões */
+        height: 30px;
     }
 
-    .menu-lateral{
-        position: static;
-        min-height: auto;
-        width: 100%;
-        margin-top: 50px;
+    .menu-lateral {
+        width: 50px; /* Ajusta a largura do menu lateral */
     }
 
-    .menu-lateral ul{
-        flex-direction: row;
+    .menu-lateral .icone {
+        width: 40px; /* Ajusta o tamanho dos ícones */
     }
 
-    .conteudo{
-        min-height: 70vh;
-        gap: 50px;
+    .aneisdopoder p {
+        font-size: 18px; /* Reduz o tamanho da fonte */
     }
 
+    .aneisdopoder p img {
+        width: 25px; /* Reduz o tamanho da imagem */
+    }
 }

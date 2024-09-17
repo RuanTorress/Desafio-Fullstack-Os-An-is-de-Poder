@@ -247,3 +247,46 @@ main::after {
         transform: scale(1.1);
     }
 }
+
+
+
+
+
+
+/* Estilos para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    .conteudo {
+        padding: 10px; /* Reduz o espaçamento interno */
+    }
+
+    .informacoes .logo {
+        max-width: 100px; /* Reduz o tamanho da logo */
+        margin-bottom: 50px; /* Reduz a margem inferior */
+    }
+
+    .informacoes .descricao {
+        font-size: 18px; /* Reduz o tamanho da fonte */
+        padding: 10px; /* Adiciona um pouco de espaçamento interno */
+    }
+
+    .botoes-carrossel .botao {
+        width: 30px; /* Ajusta o tamanho dos botões */
+        height: 30px;
+    }
+
+    .menu-lateral {
+        width: 50px; /* Ajusta a largura do menu lateral */
+    }
+
+    .menu-lateral .icone {
+        width: 40px; /* Ajusta o tamanho dos ícones */
+    }
+
+    .aneisdopoder p {
+        font-size: 18px; /* Reduz o tamanho da fonte */
+    }
+
+    .aneisdopoder p img {
+        width: 25px; /* Reduz o tamanho da imagem */
+    }
+}
